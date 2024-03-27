@@ -26,7 +26,7 @@ function App() {
       <h1>
         this is the frontend and it is working
       </h1>
-      <p>Jokes from Backend: {jokes.length}</p>
+      <p>Jokes retrieved from Backend: {jokes.length}</p>
         {jokes.map((joke, index) => 
           <Joke
             key={joke.key}
